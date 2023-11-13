@@ -165,7 +165,7 @@ function NavScrollExample({ signup }) {
   console.log(isSignup);
 
   return (
-    <div style={{ backgroundColor: color || "white", minHeight: "1000vh" }}>
+    <div style={{ backgroundColor: color || "white", minHeight: "100vh" }}>
       <div
         style={
           colorCheck
