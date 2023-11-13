@@ -94,7 +94,7 @@ try {
           to={""}
         >
           {" "}
-          <p onClick={reset}>Reset my password</p>
+          <p style={{height:"50px"}} onClick={reset}>Reset my password</p>
         </Link>{" "}
       </p>
 
@@ -106,7 +106,7 @@ try {
 
         </Col>
         <Col>
-        <img style={{marginTop:"90px"}} src="/Images/s.png" alt="image"/>
+        {/* <img style={{marginTop:"90px"}} src="/Images/s.png" alt="image"/> */}
         </Col>
       </Row>
     </div>

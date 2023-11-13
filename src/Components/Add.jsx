@@ -297,7 +297,7 @@ function NavScrollExample({ signup }) {
                     ) : (
                       ch.name
                     )}
-                    <div className="d-flex justify-content-end align-items-center w-100">
+                    <div className="d-flex justify-content-end align-items-center w-100 ">
                       <button
                         className="btn btn-danger me-4"
                         onClick={() => handleDelete(ch.id)}
