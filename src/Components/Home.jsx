@@ -14,7 +14,7 @@ function Home() {
 
         <div className="d-flex mt-3">
           <p
-            className="me-5 mt-3 "
+            className="me-5 mt-1 "
             style={{
               fontWeight: "bold",
               fontSize: "25px",
