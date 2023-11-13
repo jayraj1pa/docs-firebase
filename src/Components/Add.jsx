@@ -180,7 +180,7 @@ function NavScrollExample({ signup }) {
                 style={{ textDecoration: "none", color: "inherit" }}
                 to={isSignup ? "/" : "/onboard"}
               >
-                <i class="fa-solid fa-house" style={{ color: "#f7f9fd" }}></i>
+                <i class="fa-solid fa-house" style={{ color: "#f7f9fd",width:"25px" }}></i>
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
