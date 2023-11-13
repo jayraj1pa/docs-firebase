@@ -68,7 +68,7 @@ function Home() {
           justifyContent: "center",
           alignItems: "center",
           marginTop: "-100px",
-          fontSize: "25px",
+          fontSize: "19px",
           fontFamily: "cursive",
           color: "#808080",
           textRendering: "optimizeLegibility", // Enhances the sharpness
