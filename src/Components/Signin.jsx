@@ -245,6 +245,7 @@ const handleFacebook = async () =>{
           fontWeight: "bold",
           fontSize: "24px",
           marginLeft: "60px",
+          height:"50px"
         }}
         className="rounded mt-3"
       >
