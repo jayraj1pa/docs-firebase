@@ -51,7 +51,7 @@ function Home() {
           justifyContent: "center",
           alignItems: "center",
           height: "55vh",
-          fontSize: "50px",
+          fontSize: "60px",
           fontWeight: "bolder",
           flexDirection: "column",
         }}
