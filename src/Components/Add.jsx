@@ -44,7 +44,7 @@ function MyVerticallyCenteredModal(props) {
   };
 
   return (
-    <Modal
+    <Modal 
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
@@ -284,7 +284,7 @@ function NavScrollExample({ signup }) {
       <Row style={{ marginLeft: "125px", marginTop: "25px" }}>
         {filterdata.map((ch) => (
           <Col sm={12} md={4} key={ch.id}>
-            <Card style={{ padding: "5px", margin: "50px", width: "400px" }}>
+            <Card style={{ padding: "5px", margin: "50px", width: "300px" }}>
               <Card.Body>
                 <Card.Text>
                   <div className="d-flex justify-content-between align-items-center w-100">
