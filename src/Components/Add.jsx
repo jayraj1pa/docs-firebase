@@ -190,7 +190,7 @@ function NavScrollExample({ signup }) {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Form className="d-flex" style={{ height: "40px" }}>
+                <Form className="d-flex" style={{ height: "37px" }}>
                   <Form.Control
                     type="search"
                     placeholder="Search"
@@ -235,7 +235,7 @@ function NavScrollExample({ signup }) {
                       border: "none",
                       color: "white",
                       fontWeight: "bold",
-                      height:"40px"
+                      height:"37px"
                     }}
                     onClick={logout}
                   >
@@ -249,11 +249,11 @@ function NavScrollExample({ signup }) {
                       border: "none",
                       color: "white",
                       fontWeight: "bold",
-                      height:"40px"
+                      height:"37px"
                     }}
                     onClick={logout}
                   >
-                    Logout
+                    <span style={{textAlign:"center"}}>Logout</span>
                   </button>
                 )}
               </div>
