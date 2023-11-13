@@ -213,7 +213,7 @@ const handleFacebook = async () =>{
               variant="outlined"
               placeholder="Enter your Email..."
               required
-              style={{ width: "600px" }}
+              style={{ width: "400px" }}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -227,7 +227,7 @@ const handleFacebook = async () =>{
               placeholder="Enter your Password..."
               type="password"
               required
-              style={{ width: "600px" }}
+              style={{ width: "400px" }}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
@@ -269,14 +269,14 @@ const handleFacebook = async () =>{
         }
       </p>
 
-          <p className="ms-5">
+          <p style={{fontSize:"12px"}} className="ms-5">
             {" "}
             By continuing with Google, Apple, or Email, you agree to Doc's Terms
             of Service and Privacy Policy.
           </p>
 
           {isRegister ? (
-            <div style={{ textAlign: "center" }}>
+            <div  style={{ textAlign: "center" ,fontSize:"12px"}}>
               "Already signed up?
               <Link style={{ textDecoration: "none" }} to={"/login"}>
                 {" "}
@@ -294,7 +294,7 @@ const handleFacebook = async () =>{
           )}
         </Col>
         <Col sm={12} md={6}>
-          <div style={{marginBottom:"20px"}} className="d-flex justify-content-center align-items-center w-100 h-100">
+          <div style={{marginBottom:"20px",marginLeft:"15px"}} className="d-flex justify-content-center align-items-center w-100 h-100">
             <img src="/Images/m.png" alt="image" />
           </div>
         </Col>
