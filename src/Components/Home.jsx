@@ -28,7 +28,7 @@ function Home() {
               <Link style={{textDecoration:"none",color:"inherit"}} to={"/signup"}>
               <p
             style={{
-              border: "20px solid red",
+              border: "10px solid red",
               backgroundColor: "red",
               color: "white",
               fontWeight: "bold",
