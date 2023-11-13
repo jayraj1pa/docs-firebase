@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <div className="d-flex justify-content-between align-items-center me-5 ms-5">
-        <p style={{ color: "red", fontSize: "45px" }}>
+        <p style={{ color: "red", fontSize: "30px" }}>
           Docs{" "}
           <span>
             <i class="fa-brands fa-dochub"></i>
@@ -17,7 +17,7 @@ function Home() {
             className="me-5 mt-3 "
             style={{
               fontWeight: "bold",
-              fontSize: "25px",
+              fontSize: "18px",
               fontFamily: "sans-serif",
             }}
           >
@@ -28,7 +28,7 @@ function Home() {
               <Link style={{textDecoration:"none",color:"inherit"}} to={"/signup"}>
               <p
             style={{
-              border: "20px solid red",
+              border: "14px solid red",
               backgroundColor: "red",
               color: "white",
               fontWeight: "bold",
@@ -51,7 +51,7 @@ function Home() {
           justifyContent: "center",
           alignItems: "center",
           height: "55vh",
-          fontSize: "90px",
+          fontSize: "70px",
           fontWeight: "bolder",
           flexDirection: "column",
         }}
@@ -67,7 +67,7 @@ function Home() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: "-140px",
+          marginTop: "-100px",
           fontSize: "25px",
           fontFamily: "cursive",
           color: "#808080",
@@ -89,7 +89,7 @@ function Home() {
 
        <p
           style={{
-            border: "20px solid red",
+            border: "14px solid red",
             backgroundColor: "red",
             color: "white",
             display: "flex",
