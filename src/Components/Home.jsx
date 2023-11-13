@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <div className="d-flex justify-content-between align-items-center me-5 ms-5">
-        <p style={{ color: "red", fontSize: "30px" }}>
+        <p style={{ color: "red", fontSize: "37px" }}>
           Docs{" "}
           <span>
             <i class="fa-brands fa-dochub"></i>
@@ -17,7 +17,7 @@ function Home() {
             className="me-5 mt-3 "
             style={{
               fontWeight: "bold",
-              fontSize: "18px",
+              fontSize: "23px",
               fontFamily: "sans-serif",
             }}
           >
