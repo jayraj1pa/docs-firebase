@@ -96,7 +96,7 @@ const handleFacebook = async () =>{
             <Link style={{ textDecoration: "none", color: "inherit" }} to={"/"}>
               <p
                 className="mt-3 ms-5"
-                style={{ color: "red", fontSize: "37px", fontWeight: "bold" }}
+                style={{ color: "red", fontSize: "39px", fontWeight: "bold" }}
               >
                 Docs
                 <span className="ms-2">
@@ -111,7 +111,7 @@ const handleFacebook = async () =>{
             className=" ms-5"
             style={{
               fontWeight: "bolder",
-              fontSize: "25px",
+              fontSize: "28px",
               marginTop: "75px",
             }}
           >
@@ -213,7 +213,7 @@ const handleFacebook = async () =>{
               variant="outlined"
               placeholder="Enter your Email..."
               required
-              style={{ width: "400px" }}
+              style={{ width: "500px" }}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -227,7 +227,7 @@ const handleFacebook = async () =>{
               placeholder="Enter your Password..."
               type="password"
               required
-              style={{ width: "400px" }}
+              style={{ width: "500px" }}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
@@ -269,14 +269,14 @@ const handleFacebook = async () =>{
         }
       </p>
 
-          <p style={{fontSize:"12px"}} className="ms-5">
+          <p style={{fontSize:"18px"}} className="ms-5">
             {" "}
             By continuing with Google, Apple, or Email, you agree to Doc's Terms
             of Service and Privacy Policy.
           </p>
 
           {isRegister ? (
-            <div  style={{ textAlign: "center" ,fontSize:"12px"}}>
+            <div  style={{ textAlign: "center" ,fontSize:"18px"}}>
               "Already signed up?
               <Link style={{ textDecoration: "none" }} to={"/login"}>
                 {" "}
