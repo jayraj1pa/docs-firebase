@@ -173,7 +173,7 @@ function NavScrollExample({ signup }) {
             : { backgroundColor: "#DC4C3E" }
         }
       >
-        <Navbar style={{height:"100px"}} expand="lg" className="bg-body-tertiary me-5 ms-5 ">
+        <Navbar style={{height:"60px"}} expand="lg" className="bg-body-tertiary me-5 ms-5 ">
           <Container fluid>
             <Navbar.Brand href="#">
               <Link
