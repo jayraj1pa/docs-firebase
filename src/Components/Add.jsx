@@ -32,7 +32,6 @@ function MyVerticallyCenteredModal(props) {
   const handleAdd = async () => {
     await addDoc(channelCollection, {
       name: inputCh,
-      createdBy: userId,
 
     });
 
