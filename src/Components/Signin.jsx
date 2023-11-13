@@ -151,7 +151,7 @@ const handleFacebook = async () =>{
               display: "flex",
               alignItems: "center",
               fontWeight: "bolder",
-              fontSize: "25px",
+              fontSize: "19px",
               marginLeft: "200px",
               padding: "5px",
               border: "none",
