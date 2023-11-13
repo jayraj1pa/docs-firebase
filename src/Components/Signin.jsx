@@ -124,7 +124,7 @@ const handleFacebook = async () =>{
               alignItems: "center",
               fontWeight: "bolder",
               fontSize: "19px",
-              marginLeft: "200px",
+              marginLeft: "180px",
               padding: "5px",
               border: "none",
               transition: "background-color 0.3s, border 0.3s", // Adding a smooth transition
@@ -152,7 +152,7 @@ const handleFacebook = async () =>{
               alignItems: "center",
               fontWeight: "bolder",
               fontSize: "19px",
-              marginLeft: "200px",
+              marginLeft: "180px",
               padding: "5px",
               border: "none",
               transition: "background-color 0.3s, border 0.3s", // Adding a smooth transition
@@ -180,7 +180,7 @@ const handleFacebook = async () =>{
               alignItems: "center",
               fontWeight: "bolder",
               fontSize: "19px",
-              marginLeft: "200px",
+              marginLeft: "180px",
               padding: "1px",
               border: "none",
               transition: "background-color 0.3s, border 0.3s", // Adding a smooth transition
@@ -213,7 +213,7 @@ const handleFacebook = async () =>{
               variant="outlined"
               placeholder="Enter your Email..."
               required
-              style={{ width: "500px" }}
+              style={{ width: "470px" }}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -227,7 +227,7 @@ const handleFacebook = async () =>{
               placeholder="Enter your Password..."
               type="password"
               required
-              style={{ width: "500px" }}
+              style={{ width: "470px" }}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
