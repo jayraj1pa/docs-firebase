@@ -173,7 +173,7 @@ function NavScrollExample({ signup }) {
             : { backgroundColor: "#DC4C3E" }
         }
       >
-        <Navbar style={{height:"60px"}} expand="lg" className="bg-body-tertiary me-5 ms-5 ">
+        <Navbar style={{height:"50px"}} expand="lg" className="bg-body-tertiary me-5 ms-5 ">
           <Container fluid>
             <Navbar.Brand href="#">
               <Link
@@ -207,6 +207,7 @@ function NavScrollExample({ signup }) {
                   color: "white",
                   backgroundColor: "#E37065",
                   border: "none",
+                  height:"37px",
                   fontWeight: "bold",
                 }}
                 className="me-5 rounded p-2"
@@ -253,7 +254,7 @@ function NavScrollExample({ signup }) {
                     }}
                     onClick={logout}
                   >
-                    <span style={{textAlign:"center"}}>Logout</span>
+                    <span className="d-flex justify-content-center" style={{textAlign:"center"}}>Logout</span>
                   </button>
                 )}
               </div>
