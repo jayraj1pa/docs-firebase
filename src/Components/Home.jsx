@@ -28,7 +28,7 @@ function Home() {
               <Link style={{textDecoration:"none",color:"inherit"}} to={"/signup"}>
               <p
             style={{
-              border: "10px solid red",
+              border: "8px solid red",
               backgroundColor: "red",
               color: "white",
               fontWeight: "bold",
@@ -51,7 +51,7 @@ function Home() {
           justifyContent: "center",
           alignItems: "center",
           height: "55vh",
-          fontSize: "90px",
+          fontSize: "600px",
           fontWeight: "bolder",
           flexDirection: "column",
         }}
@@ -68,7 +68,7 @@ function Home() {
           justifyContent: "center",
           alignItems: "center",
           marginTop: "-80px",
-          fontSize: "25px",
+          fontSize: "15px",
           fontFamily: "cursive",
           color: "#808080",
           textRendering: "optimizeLegibility", // Enhances the sharpness
@@ -89,7 +89,7 @@ function Home() {
 
        <p
           style={{
-            border: "20px solid red",
+            border: "8px solid red",
             backgroundColor: "red",
             color: "white",
             display: "flex",
