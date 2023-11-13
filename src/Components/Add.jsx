@@ -173,7 +173,7 @@ function NavScrollExample({ signup }) {
             : { backgroundColor: "#DC4C3E" }
         }
       >
-        <Navbar expand="lg" className="bg-body-tertiary me-5 ms-5 ">
+        <Navbar style={{height:"100px"}} expand="lg" className="bg-body-tertiary me-5 ms-5 ">
           <Container fluid>
             <Navbar.Brand href="#">
               <Link
@@ -190,7 +190,7 @@ function NavScrollExample({ signup }) {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Form className="d-flex" style={{ height: "30px" }}>
+                <Form className="d-flex" style={{ height: "50px" }}>
                   <Form.Control
                     type="search"
                     placeholder="Search"
@@ -208,7 +208,6 @@ function NavScrollExample({ signup }) {
                   backgroundColor: "#E37065",
                   border: "none",
                   fontWeight: "bold",
-                  width:"35px"
                 }}
                 className="me-5 rounded p-2"
               >
