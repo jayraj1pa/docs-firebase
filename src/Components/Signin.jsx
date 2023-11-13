@@ -96,7 +96,7 @@ const handleFacebook = async () =>{
             <Link style={{ textDecoration: "none", color: "inherit" }} to={"/"}>
               <p
                 className="mt-3 ms-5"
-                style={{ color: "red", fontSize: "45px", fontWeight: "bold" }}
+                style={{ color: "red", fontSize: "37px", fontWeight: "bold" }}
               >
                 Docs
                 <span className="ms-2">
@@ -111,8 +111,8 @@ const handleFacebook = async () =>{
             className=" ms-5"
             style={{
               fontWeight: "bolder",
-              fontSize: "35px",
-              marginTop: "100px",
+              fontSize: "25px",
+              marginTop: "75px",
             }}
           >
             {isRegister ? "Sign up" : "Log in"}
@@ -123,7 +123,7 @@ const handleFacebook = async () =>{
               display: "flex",
               alignItems: "center",
               fontWeight: "bolder",
-              fontSize: "20px",
+              fontSize: "19px",
               marginLeft: "200px",
               padding: "5px",
               border: "none",
@@ -151,7 +151,7 @@ const handleFacebook = async () =>{
               display: "flex",
               alignItems: "center",
               fontWeight: "bolder",
-              fontSize: "20px",
+              fontSize: "19px",
               marginLeft: "200px",
               padding: "5px",
               border: "none",
@@ -179,7 +179,7 @@ const handleFacebook = async () =>{
               display: "flex",
               alignItems: "center",
               fontWeight: "bolder",
-              fontSize: "20px",
+              fontSize: "19px",
               marginLeft: "200px",
               padding: "1px",
               border: "none",
@@ -294,7 +294,7 @@ const handleFacebook = async () =>{
           )}
         </Col>
         <Col sm={12} md={6}>
-          <div className="d-flex justify-content-center align-items-center w-100 h-100">
+          <div style={{marginBottom:"20px"}} className="d-flex justify-content-center align-items-center w-100 h-100">
             <img src="/Images/m.png" alt="image" />
           </div>
         </Col>

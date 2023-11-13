@@ -17,7 +17,7 @@ function Home() {
             className="me-5 mt-3 "
             style={{
               fontWeight: "bold",
-              fontSize: "23px",
+              fontSize: "25px",
               fontFamily: "sans-serif",
             }}
           >
