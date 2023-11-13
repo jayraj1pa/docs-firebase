@@ -4,26 +4,5 @@ body{
     box-sizing: border-box;
   }
 
-  p {
-    font-size: 12px; /* You can adjust the size accordingly */
-  }
 
-  .box {
-    width: 100px;
-    height: 50px;
-  }
-  .element {
-    margin: 5px; /* Adjust the margin as needed */
-    padding: 10px; /* Adjust the padding as needed */
-  }
-  p {
-    line-height: 1.2; /* Adjust the line height as needed */
-  }
-  .box {
-    border: 1px solid black; /* Adjust the border size and style as needed */
-  }
-  .icon {
-    width: 20px;
-    height: 20px;
-  }
            

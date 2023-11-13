@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <div className="d-flex justify-content-between align-items-center me-5 ms-5">
-        <p style={{ color: "red", fontSize: "45px" }}>
+        <p style={{ color: "red", fontSize: "25px" }}>
           Docs{" "}
           <span>
             <i class="fa-brands fa-dochub"></i>
@@ -67,7 +67,7 @@ function Home() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: "-140px",
+          marginTop: "-80px",
           fontSize: "25px",
           fontFamily: "cursive",
           color: "#808080",
