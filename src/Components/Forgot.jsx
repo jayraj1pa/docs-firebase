@@ -90,8 +90,13 @@ try {
         className="rounded mt-3"
       >
         <Link
-          style={{ textDecoration: "none", color: "inherit" }}
-          to={""}
+ style={{
+  textDecoration: "none",
+  color: "inherit",
+  display: "flex",        // Add this
+  justifyContent: "center", // Add this
+  alignItems: "center"      // Add this
+}}          to={""}
         >
           {" "}
           <p style={{height:"50px"}} onClick={reset}>Reset my password</p>
