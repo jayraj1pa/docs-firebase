@@ -209,6 +209,9 @@ function NavScrollExample({ signup }) {
                   border: "none",
                   height:"37px",
                   fontWeight: "bold",
+                  display: "flex",        // Add this
+                  justifyContent: "center", // Add this
+                  alignItems: "center"  
                 }}
                 className="me-5 rounded p-2"
               >
@@ -236,7 +239,10 @@ function NavScrollExample({ signup }) {
                       border: "none",
                       color: "white",
                       fontWeight: "bold",
-                      height:"37px"
+                      height:"37px",
+                      display: "flex",        // Add this
+                      justifyContent: "center", // Add this
+                      alignItems: "center"  
                     }}
                     onClick={logout}
                   >
@@ -244,18 +250,22 @@ function NavScrollExample({ signup }) {
                   </button>
                 ) : (
                   <button
-                    className="rounded p-2"
-                    style={{
-                      backgroundColor: "#E37065",
-                      border: "none",
-                      color: "white",
-                      fontWeight: "bold",
-                      height:"37px"
-                    }}
-                    onClick={logout}
-                  >
-                    <span className="d-flex justify-content-center" style={{textAlign:"center"}}>Logout</span>
-                  </button>
+  className="rounded p-2"
+  style={{
+    backgroundColor: "#E37065",
+    border: "none",
+    color: "white",
+    fontWeight: "bold",
+    height: "37px",
+    display: "flex",        // Add this
+    justifyContent: "center", // Add this
+    alignItems: "center"      // Add this
+  }}
+  onClick={logout}
+>
+  <span>Logout</span>
+</button>
+
                 )}
               </div>
             </Navbar.Collapse>
